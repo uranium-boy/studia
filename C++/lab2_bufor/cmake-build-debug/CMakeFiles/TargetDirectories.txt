@@ -1,0 +1,3 @@
+/home/haenim/Desktop/lab2_bufor/cmake-build-debug/CMakeFiles/lab2_bufor.dir
+/home/haenim/Desktop/lab2_bufor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haenim/Desktop/lab2_bufor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

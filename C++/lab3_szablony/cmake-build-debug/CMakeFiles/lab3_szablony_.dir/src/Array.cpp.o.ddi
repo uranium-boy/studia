@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/lab3_szablony_.dir/src/Array.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

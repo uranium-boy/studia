@@ -1,5 +1,5 @@
 CMakeFiles/lab3_szablony_.dir/main.cpp.o.ddi: \
- /home/haenim/studia/cpp/lab3(szablony)/main.cpp \
+ /home/haenim/Desktop/studia/C++/lab3_szablony/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -143,4 +143,4 @@ CMakeFiles/lab3_szablony_.dir/main.cpp.o.ddi: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/haenim/studia/cpp/lab3(szablony)/Array.h
+ /home/haenim/Desktop/studia/C++/lab3_szablony/include/Array.h

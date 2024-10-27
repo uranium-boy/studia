@@ -3,7 +3,8 @@
 #include "Array.h"
 
 int main() {
-    Array<int> arr(5);
+    size_t arrSize = 5;
+    Array<int> arr(arrSize);
 
     arr.append(-10);
     arr.append(10);

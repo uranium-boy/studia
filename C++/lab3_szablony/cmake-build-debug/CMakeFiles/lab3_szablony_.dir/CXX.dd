@@ -1,5 +1,5 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles/lab3_szablony_.dir/main.cpp.o: dyndep
 
-build CMakeFiles/lab3_szablony_.dir/Array.cpp.o: dyndep
+build CMakeFiles/lab3_szablony_.dir/src/Array.cpp.o: dyndep
 

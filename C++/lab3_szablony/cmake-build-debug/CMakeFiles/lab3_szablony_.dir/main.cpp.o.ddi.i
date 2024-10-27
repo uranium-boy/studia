@@ -1,10 +1,10 @@
-# 0 "/home/haenim/studia/cpp/lab3(szablony)/main.cpp"
-# 1 "/home/haenim/studia/cpp/lab3(szablony)/cmake-build-debug//"
+# 0 "/home/haenim/Desktop/studia/C++/lab3_szablony/main.cpp"
+# 1 "/home/haenim/Desktop/studia/C++/lab3_szablony/cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/haenim/studia/cpp/lab3(szablony)/main.cpp"
+# 1 "/home/haenim/Desktop/studia/C++/lab3_szablony/main.cpp"
 # 1 "/usr/include/c++/14.2.1/iostream" 1 3
 # 36 "/usr/include/c++/14.2.1/iostream" 3
        
@@ -43307,15 +43307,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 }
-# 2 "/home/haenim/studia/cpp/lab3(szablony)/main.cpp" 2
+# 2 "/home/haenim/Desktop/studia/C++/lab3_szablony/main.cpp" 2
 
-# 1 "/home/haenim/studia/cpp/lab3(szablony)/Array.h" 1
-# 12 "/home/haenim/studia/cpp/lab3(szablony)/Array.h"
+# 1 "/home/haenim/Desktop/studia/C++/lab3_szablony/include/Array.h" 1
+# 10 "/home/haenim/Desktop/studia/C++/lab3_szablony/include/Array.h"
 
-# 12 "/home/haenim/studia/cpp/lab3(szablony)/Array.h"
+# 10 "/home/haenim/Desktop/studia/C++/lab3_szablony/include/Array.h"
 template<typename T>
 class Array {
 private:
+    static constexpr int DEFAULT_SIZE = 10;
     T* array;
     size_t maxSize;
     int freeIndex;
@@ -43331,10 +43332,11 @@ public:
     bool append(T value);
     T getElement(int index);
 };
-# 4 "/home/haenim/studia/cpp/lab3(szablony)/main.cpp" 2
+# 4 "/home/haenim/Desktop/studia/C++/lab3_szablony/main.cpp" 2
 
 int main() {
-    Array<int> arr(5);
+    size_t arrSize = 5;
+    Array<int> arr(arrSize);
 
     arr.append(-10);
     arr.append(10);
@@ -43342,6 +43344,16 @@ int main() {
     arr.append(-20);
     arr.append(30);
     arr.append(-40);
+
+    arr.showArray();
+    arr.sort();
+    arr.showArray();
+
+    int max = arr.maxElement();
+
+    int index3 = arr.getElement(3);
+
+
 
     return 0;
 }

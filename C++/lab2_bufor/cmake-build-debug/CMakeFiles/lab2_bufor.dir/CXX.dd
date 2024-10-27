@@ -1,0 +1,9 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/lab2_bufor.dir/main.cpp.o: dyndep
+
+build CMakeFiles/lab2_bufor.dir/Bufor.cpp.o: dyndep
+
+build CMakeFiles/lab2_bufor.dir/MeanBuffer.cpp.o: dyndep
+
+build CMakeFiles/lab2_bufor.dir/MaxBuffer.cpp.o: dyndep
+
