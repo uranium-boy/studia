@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/haenim/studia/cpp/lab3(szablony)/cmake-build-debug",
+	"dir-cur-src" : "/home/haenim/studia/cpp/lab3(szablony)",
+	"dir-top-bld" : "/home/haenim/studia/cpp/lab3(szablony)/cmake-build-debug",
+	"dir-top-src" : "/home/haenim/studia/cpp/lab3(szablony)",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/haenim/studia/cpp/lab3(szablony)/cmake-build-debug/CMakeFiles/lab3_szablony_.dir"
+}
