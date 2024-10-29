@@ -45,39 +45,17 @@
             <input type="submit" name="submit" value="Java">
         </form>
 <?php
-function dodaj() {
-    $file = fopen("dane.txt", "a+");
-    if (!$file) {
-        echo "<p>Błąd otwarcia pliku</p>";
-        exit;
-    }
-    foreach($_REQUEST as $key => $val) {
-        if(is_array($val)) {
-            $arr = implode(", ", $val);
-            fwrite($file, $arr);
-            fwrite($file, ";");
-        }
-        else {
-            fwrite($file, $val);
-            fwrite($file, ";");
-        }
-    }
-    fwrite($file, "\n");
-    fclose($file);
-}
 
-function pokaz() {
-    $file = fopen("dane.txt", "r");
-    if (!$file) {
-        echo "<p>Błąd otwarcia pliku</p>";
-        exit();
-    }
-    $data
-}
+include_once "funkcje.php";
+
 if(isset($_REQUEST["submit"])) {
     $action = $_REQUEST["submit"];
     switch ($action) {
         case "Zapisz": dodaj(); break;
+        case "Pokaż": pokaz(); break;
+        case "PHP": pokaz_zamowienie("PHP"); break;
+        case "CPP": pokaz_zamowienie("C++"); break;
+        case "Java": pokaz_zamowienie("Java"); break;
     }
 }
 ?>
