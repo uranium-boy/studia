@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+        <title>Formularz</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <form method="post" action="zdjecia.php" enctype="multipart/form-data">
+            <label for="wys">Max. wysokość</label>
+            <input type="number" id="wys" name="wys"><br>
+
+            <label for="szer">Max. szerokość</label>
+            <input type="number" id="szer" name="szer"><br>
+
+            <label for="img">Plik JPG</label>
+            <input type="file" id="img" name="zdjecie"><br>
+
+            <input type="submit" name="zapisz" value="Zapisz">
+        </form>
+    </body>
+</html>

@@ -43,19 +43,21 @@
             <input type="submit" name="submit" value="PHP">
             <input type="submit" name="submit" value="CPP">
             <input type="submit" name="submit" value="Java">
+            <input type="submit" name="submit" value="Statystyki">
         </form>
 <?php
 
 include_once "funkcje.php";
 
-if(isset($_REQUEST["submit"])) {
-    $action = $_REQUEST["submit"];
+$action = filter_input(INPUT_POST, 'submit', FILTER_SANITIZE_SPECIAL_CHARS);
+if($action != null) {
     switch ($action) {
         case "Zapisz": dodaj(); break;
         case "Pokaż": pokaz(); break;
         case "PHP": pokaz_zamowienie("PHP"); break;
         case "CPP": pokaz_zamowienie("C++"); break;
         case "Java": pokaz_zamowienie("Java"); break;
+        case "Statystyki": statystyki(); break;
     }
 }
 ?>
