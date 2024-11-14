@@ -73,6 +73,9 @@ if (isset($_GET['pic']) && !empty($_GET['pic'])) {
             $original = "zdjecia/" . str_replace('mini-', '', $file);
             echo '<a href="' . $original . '"><img src="miniaturki/' . $file . '" style="margin:10px;"></a>';
             $number++;
+            if ($number % 4 === 0) {
+                echo "<br>";
+            }
         }
     }
     echo "<p>Aktualnie w galerii jest $number zdjęć.</p>";
