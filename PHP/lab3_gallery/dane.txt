@@ -1,0 +1,11 @@
+nazwisko;21;pl;a@aa.aa;C, C++, Java;wire;Zapisz;
+nazwisko;21;pl;a@aa.aa;C, C++, Java;wire;
+aa;4;uk;teufel@garwolin.pl;XML;eurocard;
+aa;4;uk;teufel@garwolin.pl;XML;eurocard;
+kim jong un;21;pl;leader@north.korea.com;Java;
+Wujek Stalin;69;pl;ussr@ussr.ussr;PHP;eurocard;
+bestia z wadowic;2137;pl;childfucker@vatican.com;Java;visa;
+Szatan;pl;HTML;0;childfucker@vatican.com;
+
+Szatan;pl;HTML;0;childfucker@vatican.com;
+Szatan;pl;HTML;0;childfucker@vatican.com;
