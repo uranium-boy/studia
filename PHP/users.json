@@ -1,0 +1,42 @@
+[
+    {
+        "userName": "admin",
+        "passwd": "admin",
+        "fullName": "Administrator",
+        "email": "admin@gmail.com",
+        "date": "2018-09-10",
+        "status": 2
+    },
+    {
+        "userName": "kubus",
+        "passwd": "kubus",
+        "fullName": "Kubu\u015b Puchatek",
+        "email": "kubus@stumilowylas.com",
+        "date": "2019-10-30",
+        "status": 1
+    },
+    {
+        "userName": "prosiaczek",
+        "fullName": "Pro Siaczek",
+        "email": "prosiaczek@stumilowylas.pl",
+        "date": "2024-11-19",
+        "status": 1,
+        "passwd": "$2y$10$owWyQpjWh\/\/YDXndbdMg9uqnY7oIRODA6ioYOlXbp490MNMkUTklu"
+    },
+    {
+        "userName": "klapouchy",
+        "fullName": "K\u0142apo Uchy",
+        "email": "klapouchy@stumilowylas.pl",
+        "date": "2024-11-19",
+        "status": 1,
+        "passwd": "$2y$10$DH4q8qnK9zVtedkygz2mdOF5P.lh.FtWKfGUCt.KIdklQ2bkxKZU."
+    },
+    {
+        "userName": "bozia",
+        "fullName": "Jezus Chrystus",
+        "email": "jesus@heaven.amen",
+        "date": "2024-11-19",
+        "status": 1,
+        "passwd": "$2y$10$\/CAY6\/eYMYvy\/Wyft.K0IOrDNo1rOGe72D17dQwZICKrc2vNQ6766"
+    }
+]

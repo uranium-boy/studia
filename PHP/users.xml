@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <userName>admin</userName>
+        <passwd>admin</passwd>
+        <fullName>Administrator</fullName>
+        <email>admin@gmail.com</email>
+        <date>2018-09-10</date>
+        <status>2</status>
+        </user>
+    <user>
+        <userName>beatap</userName>
+        <passwd>beatap</passwd>
+        <fullName>Beata P.</fullName>
+        <email>beatap@gmail.com</email>
+        <date>2018-10-10</date>
+        <status>1</status>
+        </user>
+    <user><userName>klapouchy</userName><fullName>Kłapo Uchy</fullName><email>klapouchy@stumilowylas.pl</email><date>2024-11-19</date><status>1</status><passwd>$2y$10$DH4q8qnK9zVtedkygz2mdOF5P.lh.FtWKfGUCt.KIdklQ2bkxKZU.</passwd></user><user><userName>bozia</userName><fullName>Jezus Chrystus</fullName><email>jesus@heaven.amen</email><date>2024-11-19</date><status>1</status><passwd>$2y$10$/CAY6/eYMYvy/Wyft.K0IOrDNo1rOGe72D17dQwZICKrc2vNQ6766</passwd></user></users>
