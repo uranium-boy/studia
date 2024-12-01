@@ -23,7 +23,13 @@ private:
     Contact_multi_index contactList;
 
 public:
-    Contacts();
+    Contacts() {}
     void addContact(const Contact& contact);
+    void deleteContact(std::string number);
     void showAll();
+    void showbyStreet(std::string street);
+    void showByAge(int min, int max);
+    void findByNumber(std::string number);
+    void countAdults();
+    void countUniqueLastNames() const;
 };

@@ -9,4 +9,5 @@ public:
 
 public:
     Contact(std::string firstName, std::string lastName, std::string number, std::string street, int age);
+    void show() const;
 };
