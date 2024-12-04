@@ -25,6 +25,7 @@ class RegistrationForm {
 
             <input type="submit" name="submit" value="Rejestruj">
             <input type="reset" value="Anuluj">
+            <input type="submit" name="submit" value="Wyświetl wszystkie">
         </form></p>
     ';
 

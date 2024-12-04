@@ -32,14 +32,14 @@ class User {
     public function saveToDB($db) {
         $date = $this->date->format('Y-m-d');
         $sql = "INSERT INTO users VALUES (NULL, '$this->userName', '$this->fullName', '$this->email', '$this->passwd', '$this->status', '$date')";
-        if ($db->insert($sql)) {
-            echo "TAK";
-        } else {
-            echo "NIE";
-        }
+        $db->insert($sql);
     }
 
-    public function getAllUsersFromDB($db) {
+    public static function getAllUsersFromDB($db) {
+        $sql = "SELECT * FROM users";
+        $fields = ["id", "userName", "fullName", "email", "passwd", "status", "data"];
+        $result = $db->select($sql, $fields);
+        echo $result;
     }
 
     public function toArray() {
@@ -54,40 +54,6 @@ class User {
         return $arr;
     }
 
-    public function save($file) {
-        $arr = json_decode(file_get_contents($file), true);
-        array_push($arr, $this->toArray());
-        file_put_contents($file, json_encode($arr, JSON_PRETTY_PRINT));
-    }
-
-    static function getAllUsers($file) {
-        $arr = json_decode(file_get_contents($file));
-        foreach ($arr as $val) {
-            echo "<p>" . $val->userName. " " . $val->fullName . " " .$val->date. "</p>";
-        }
-    }
-
-    public function saveXML() {
-        $xml = simplexml_load_file('users.xml');
-
-        $xmlCopy = $xml->addChild("user");
-        $xmlCopy->addChild("userName", $this->userName);
-        $xmlCopy->addChild("fullName", $this->fullName);
-        $xmlCopy->addChild("email", $this->email);
-        $xmlCopy->addChild("date", $this->date->format('Y-m-d'));
-        $xmlCopy->addChild("status", $this->status);
-        $xmlCopy->addChild("passwd", $this->passwd);
-        $xml->asXML('users.xml');
-    }
-
-    static function getAllUsersFromXML() {
-        $allUsers = simplexml_load_file('users.xml');
-        echo "<ul>";
-        foreach ($allUsers as $user) {
-            echo "<li>" . $user->userName . " " . $user->fullName . " " . $user->date . "</li>";
-        }
-        echo "</ul>";
-    }
 
     public function setUserName($userName) {
         $this->userName = $userName;
