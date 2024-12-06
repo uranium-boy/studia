@@ -48,6 +48,25 @@ class Database {
         return $content;
     }
 
+    public function selectUser($login, $passwd, $table) {
+        $id = -1;
+        $sql = "SELECT * FROM $table WHERE userName='$login'";
+
+        if ($result = $this->mysqli->query($sql)) {
+            $num = $result->num_rows;
+
+            if ($num == 1) {
+                $row = $result->fetch_object();
+                $hash = $row->passwd;
+
+                if (password_verify($passwd, $hash)) {
+                    $id = $row->id;
+                }
+            }
+        }
+        return $id;
+    }
+
     public function insert($sql) {
         if ($this->mysqli->query($sql))
             return true;
