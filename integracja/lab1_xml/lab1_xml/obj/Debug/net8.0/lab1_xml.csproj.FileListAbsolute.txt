@@ -1,0 +1,15 @@
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\lab1_xml.exe
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\Assets\data.xml
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\lab1_xml.deps.json
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\lab1_xml.runtimeconfig.json
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\lab1_xml.dll
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\bin\Debug\net8.0\lab1_xml.pdb
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.AssemblyInfoInputs.cache
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.AssemblyInfo.cs
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.csproj.CoreCompileInputs.cache
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.dll
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\refint\lab1_xml.dll
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.pdb
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\lab1_xml.genruntimeconfig.cache
+C:\Users\haenim\Desktop\studia\integracja\lab1\lab1_xml\lab1_xml\obj\Debug\net8.0\ref\lab1_xml.dll

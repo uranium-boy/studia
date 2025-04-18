@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\haenim\\Desktop\\studia\\integracja\\lab1\\source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC37F8D-E093-4914-9C1B-D14F7D1081CC}|lab1_xml\\lab1_xml.csproj|c:\\users\\haenim\\desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\xmlreadwithsaxapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC37F8D-E093-4914-9C1B-D14F7D1081CC}|lab1_xml\\lab1_xml.csproj|solutionrelative:lab1_xml\\xmlreadwithsaxapproach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC37F8D-E093-4914-9C1B-D14F7D1081CC}|lab1_xml\\lab1_xml.csproj|c:\\users\\haenim\\desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\xmlreadwithxlstdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC37F8D-E093-4914-9C1B-D14F7D1081CC}|lab1_xml\\lab1_xml.csproj|solutionrelative:lab1_xml\\xmlreadwithxlstdom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XMLReadWithXLSTDOM.cs",
+              "DocumentMoniker": "C:\\Users\\haenim\\Desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\XMLReadWithXLSTDOM.cs",
+              "RelativeDocumentMoniker": "lab1_xml\\XMLReadWithXLSTDOM.cs",
+              "ToolTip": "C:\\Users\\haenim\\Desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\XMLReadWithXLSTDOM.cs",
+              "RelativeToolTip": "lab1_xml\\XMLReadWithXLSTDOM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:20:08.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XMLReadWithSAXApproach.cs",
+              "DocumentMoniker": "C:\\Users\\haenim\\Desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\XMLReadWithSAXApproach.cs",
+              "RelativeDocumentMoniker": "lab1_xml\\XMLReadWithSAXApproach.cs",
+              "ToolTip": "C:\\Users\\haenim\\Desktop\\studia\\integracja\\lab1\\source\\lab1_xml\\XMLReadWithSAXApproach.cs",
+              "RelativeToolTip": "lab1_xml\\XMLReadWithSAXApproach.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T18:36:09.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
