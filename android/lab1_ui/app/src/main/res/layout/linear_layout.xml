@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:viewBindingIgnore="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@dimen/cardview_compat_inset_shadow"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/cardview_dark_background"
+        app:title="Main activity"
+        app:titleTextColor="@color/white"
+        app:titleCentered="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/first_name" />
+
+        <EditText
+            android:id="@+id/firstNameEdit"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/last_name" />
+
+        <EditText
+            android:id="@+id/lastNameEdit"
+            android:hint="@string/last_name"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/grades" />
+
+        <EditText
+            android:id="@+id/gradesEdit"
+            android:hint="@string/grades"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gradesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:text="@string/grades" />
+
+</LinearLayout>

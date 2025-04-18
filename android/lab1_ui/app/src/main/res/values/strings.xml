@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="grades">Grades:</string>
+    <string name="gradesButtonText">Grades</string>
+    <string name="submit">Submit</string>
+    <string name="passedButtonText">Super :)</string>
+    <string name="failedButtonText">Tym razem mi nie poszło :\'(</string>
+    <string name="average_grade_message">Student\'s grades average: %1$.2f</string>
+    <string name="calculate_average">Calculate Average</string>
+
+    <string-array name="subject_array">
+        <item>Java</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Python</item>
+        <item>Prolog</item>
+        <item>Haskell</item>
+        <item>Lisp</item>
+        <item>Swift</item>
+        <item>Kotlin</item>
+        <item>Cobol</item>
+        <item>Fortran</item>
+        <item>Algol</item>
+        <item>Rust</item>
+        <item>Zig</item>
+        <item>Lua</item>
+    </string-array>
+</resources>
