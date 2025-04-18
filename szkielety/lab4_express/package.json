@@ -1,0 +1,16 @@
+{
+    "name": "express-server",
+    "description": "Prosta aplikacja serwerowa oparta na szkielecie Express",
+    "main": "1.js",
+    "keywords": ["express", "server"],
+    "author": "Maciej Janczara",
+    "dependencies": {
+        "express": "latest",
+        "nodemon": "latest",
+        "express-validator": "latest"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    }
+}
