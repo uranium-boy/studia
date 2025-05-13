@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <form action="/" method="POST">
+            <label for="country">Choose country:</label>
+            <select id="country" name="country" onchange="updateCities()">
+                <% Object.entries(countries).forEach(([code, data]) => { %>
+                    <option value="<%= code %>"><%= data.name %></option>
+                <% }); %>
+            </select>
+
+            <label for="city">Choose city:</label>
+            <select id="city" name="city"></select>
+
+            <button type="submit">Show Weather</button>
+        </form>
+
+        <% if (weatherData) { %>
+            <div>
+                <h3>Current weather in <%= weatherData.name %>:</h3>
+                <img src="https://openweathermap.org/img/wn/<%= weatherData.weather[0].icon %>@2x.png" />
+                <p>Temperature: <%= weatherData.main.temp %>°C</p>
+                <p><%= weatherData.weather[0].description %></p>
+                <p>Pressure: <%= weatherData.main.pressure %> hPa</p>
+                <p>Humidity: <%= weatherData.main.humidity %>%</p>
+            </div>
+        <% } %>
+
+        <script>
+            const countries = <%- JSON.stringify(countries) %>;
+            const weatherData = <%- JSON.stringify(weatherData) %>;
+
+                function updateCities() {
+                    const countrySelect = document.getElementById("country");
+                    const citySelect = document.getElementById("city");
+                    const selectedCountry = countrySelect.value;
+
+                    citySelect.innerHTML = "";
+
+                    countries[selectedCountry].cities.forEach(city => {
+                        const option = document.createElement("option");
+                        option.value = city;
+                        option.textContent = city;
+                        citySelect.appendChild(option);
+                    });
+
+                }
+            window.addEventListener("DOMContentLoaded", updateCities);
+        </script>
+    </body>
+</html>
+
